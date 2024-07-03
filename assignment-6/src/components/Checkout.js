@@ -5,7 +5,6 @@ import {
     StyleSheet,
     FlatList,
     TouchableOpacity,
-    SafeAreaView,
   } from "react-native";
   import React, { useContext } from "react";
   import { useNavigation } from "@react-navigation/native";
@@ -192,12 +191,10 @@ import {
       height: 20,
       margin: 10,
       marginTop: 40,
-      //marginLeft: 20,
     },
     menu: {
       flexDirection: "row",
       justifyContent: "space-between",
-      // backgroundColor: "black",
     },
     topic: {
       fontSize: 24,
