@@ -10,7 +10,7 @@ import {
   import { useNavigation } from "@react-navigation/native";
   import { Ionicons } from "@expo/vector-icons";
   import { SimpleLineIcons } from "@expo/vector-icons";
-  import Home from "../components/Home/Home";
+  import Home from "../components/Home";
   import { CartContext } from "../context/CartContext";
   
   const HomeScreen = () => {
